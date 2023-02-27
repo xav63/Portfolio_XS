@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="section1">
+      <nav class="nav">
+        <ul>
+          <li><a href="#APROPOS">A PROPOS</a></li>
+          <li><a href="#MESPROJETS">MES PROJETS</a></li>
+          <li><a href="#MECONTACTER">ME CONTACTER</a></li>
+        </ul>
+      </nav>
+      <h1 class="titre">XAVIER SINTUREL</h1>
+      <span class="lien">
+        <!-- Font Awesome Icon -->
+        <a href="https://github.com/xav63" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/xavier-sinturel-développeur-web" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </span>
+      <span class="langage">
+        <img src="assets/image/logo_HTML.png" class="lang">
+        <img src="assets/image/logo_CSS.png"class="lang">
+        <img src="assets/image/logo_JS.png"class="lang">
+        <img src="assets/image/new-php-logo.png"class="lang">
+      </span>
+    </header>
+  <!-- A propos -->
+  <section class="section2" id="APROPOS">
+      <img src="assets/image/myAvatar.png" alt="Logo" class="logo">
+      <div class="propos"><h2>A PROPOS</h2>
+      <p>Bonjour, Je m'appelle Xavier SINTUREL.
+        J'ai 42 ans. Je suis actuellement en formation de développeur Web chez Simplon dans le cadre d'une reconversion professionnelle.</p>
+      </div>
+      </section>
+  <!-- Projets -->
+  <section class="section3" id="MESPROJETS">
+    <div class="projet">
+      <h2>MES PROJETS</h2>
+        <div class="projet1">
+          <h3><a href="https://xav63.github.io/Portfolio/" target="_blank">PORTFOLIO</a></h3>
+          <p>Création d'un portfolio responsive et valide W3C. 
+          Visible en ligne à l'aide de gitHub Pages.
+          </p>
+        </div>
+        <div class="projet2">
+          <h3><a href="assets/Mon_Portfolio.pdf" target="_blank">FIGMA</a></h3>
+          <p>Création d'une maquette pour le projet PORTFOLIO</p>
+        </div>
+        <div class="projet3">
+          <h3><a href="https://xav63.github.io/Simplonline/" target="_blank">SIMPLONLINE</a></h3>
+          <p>Réplique de la page d'accueil du site Simplonline.co en HTML / CSS
+          </p>
+        </div>
+        <div class="projet4">
+          <h3><a href="https://xav63.github.io/citation/" target="_blank">Générateur de Citation</a></h3>
+          <p>Création d'un générateur de citations aléatoire en JavaScript
+          </p>
+        </div>
+        <div class="projet5">
+          <h3><a href="https://xav63.github.io/carteCrous/" target="_blank">Carte intéractive Crous Lille</a></h3>
+          <p>Création d'un site web permettant d'afficher les lieux de restauration des CROUS de la Métropole Européenne de Lille. </p>
+        </div>
+    </div>
+      <img src="assets/image/pexels-pixabay-248515.jpg" alt="image projet" class="logo_projet">
+  </section>
+  <!-- Formulaire -->
+  <section class="section4" id="MECONTACTER">
+    <form action="method-post.php" method="post">
+    <h2>ME CONTACTER</h2>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+          <div class="boite">
+            <label>Nom/Prénom</label>
+            <input type="text" placeholder="">
+            <!-- Font Awesome Icon -->
+            <i class=" icon fa-solid fa-user"></i>
+          </div>
+          <div class="boite">
+            <label>Adresse mail</label>
+            <input type="text" placeholder="">
+            <!-- Font Awesome Icon -->
+            <i class=" icon fa-solid fa-envelope"></i>
+          </div>
+          <div class="boite">
+            <label>Téléphone</label>
+            <input type="text" placeholder="">
+            <!-- Font Awesome Icon -->
+            <i class=" icon fa-solid fa-mobile"></i>
+          </div>  
+        </div>
+        <div class="droite"></div>
+            <div class="boite">
+              <label>Message</label>
+              <textarea placeholder="Votre message..."></textarea>
+            </div>
+      </div>
+      <div class="bouton">
+        <input type="submit" value="Envoyer">
+      </div>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="fleche"><a href="#"><i class="fa-solid fa-circle-arrow-up"></i></a></div>
+    <p><i class="fa-regular fa-copyright"></i> Xavier SINTUREL</p>
+  </footer>
+</body>
+</html>
